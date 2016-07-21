@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="ev3_start" type="test.py" name="test.py" output="screen" />
+	<node pkg="ev3_start" type="touchsensor.py" name="ts.py" />
+	<!-- node pkg="joy" type="joy_node" name="joy_node" /-->
+</launch>
